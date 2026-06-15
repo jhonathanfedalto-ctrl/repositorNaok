@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT3 RS Racing Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GT3 <span>RS</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#specs">Especificações</a></li>
+                <li><a href="#pistas">Simulador</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Nascido no Circuito.</h1>
+            <p>Explore o mundo da alta performance e sinta a aerodinâmica extrema do lendário Porsche 911 GT3 RS nas pistas.</p>
+            <button id="cta-btn">Acelerar</button>
+        </div>
+    </section>
+
+    <section id="specs" class="specs-section">
+        <h2>Ficha Técnica de Pista</h2>
+        <div class="specs-grid">
+            <div class="spec-card">
+                <h3>Motor</h3>
+                <p>Boxer 4.0L Aspirado</p>
+            </div>
+            <div class="spec-card">
+                <h3>Potência</h3>
+                <p>525 CV</p>
+            </div>
+            <div class="spec-card">
+                <h3>0 a 100 km/h</h3>
+                <p>3.2 segundos</p>
+            </div>
+            <div class="spec-card">
+                <h3>Velocidade Máxima</h3>
+                <p>296 km/h</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pistas" class="tracks-section">
+        <h2>Simulador de Telemetria</h2>
+        <p>Gere um tempo de volta dinâmico simulando o GT3 RS no Autódromo de Interlagos!</p>
+        <div class="lap-simulator">
+            <button id="lap-btn">Iniciar Volta</button>
+            <div id="lap-result">--:--.---</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 GT3 RS Racing Fanpage. Criado para entusiastas de automobilismo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
